@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #1A1A1A;
+    --secunadri-color: #00B172;
+    --white: #FFF;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+}
+
+
+
+@media (width <=300) {
+
+    #logo{
+        display: block;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+@media (200px < width <=768px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (width <=768) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
